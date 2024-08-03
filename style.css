@@ -30,14 +30,23 @@ body{
     width: 100vw;
     max-height: 10vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
     padding: 2.7rem;
 }
-.header-content{
-    width: 80vw;
+.header-button{
     display: flex;
+    width: 20vw;
     justify-content: space-between;
+}
+.header-content{
+    width: 55vw;
+    display: flex;
+    justify-content:space-between;
     align-items: center;
+}
+.loginbutton{
+    margin-left: 1rem;
 }
 .logo{
     text-decoration: none;
@@ -82,6 +91,7 @@ body{
     padding: 0.75rem 1.5rem;
     font-size: 1rem;
     font-weight: 600;
+    cursor: pointer;
 }
 .contact:hover{
     background-color: #5254f8;
