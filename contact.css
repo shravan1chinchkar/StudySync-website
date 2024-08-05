@@ -81,6 +81,9 @@ input.submit{
     /* transition-duration: 2s; */
     transition-timing-function: linear;
 }
-/* input.submit:hover{
-    color: w;
-} */
+#msg{
+    width: 100%;
+    text-align: center;
+    color: green;
+    background-color: white;
+}

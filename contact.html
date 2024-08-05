@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +11,7 @@
   <div class="flexcontainer">
 
     <div id="loginform">
-      <form action="{% url 'contact' %}" method="post">
+      <form method="post" name="submit-to-google-sheet">
         <table>
           <a href="#logo" class="logo">
             <img src="./images_2/StudySyn copy.svg" alt="logo" class="logo-icon">
@@ -47,25 +46,6 @@
             </td>
           </tr>
 
-
-          <tr>
-            <td>
-              <label for="Gender">Gender:</label>
-            </td>
-            <td>
-
-              <label for="male1">Male:</label>
-              <input type="radio" name="Gender" id="male1">
-
-              <label for="female1">Female:</label>
-              <input type="radio" name="Gender" id="female1">
-
-              <label for="other1">Other: </label>
-              <input type="radio" name="Gender" id="other1">
-            </td>
-          </tr>
-
-  
           <tr>
             <td>
               <label for="about1">Message:</label>
@@ -80,6 +60,7 @@
           </tr>
 
         </table>
+        <div id="msg"></div>
 
       </form>
 
@@ -87,6 +68,7 @@
 
   </div>
 
+  <script src="index.js"></script>
 </body>
 
 </html>
